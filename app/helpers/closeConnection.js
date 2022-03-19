@@ -1,4 +1,4 @@
-import {CLOSE_BTN, TIMER} from "../common/constants.js";
+import {CLOSE_BTN, SEND_MSG_BTN, TIMER} from "../common/constants.js";
 import init from "../init.js";
 
 function closeConnection(websocket) {
@@ -8,6 +8,7 @@ function closeConnection(websocket) {
 
     CLOSE_BTN.innerText = 'Open Connection'
     CLOSE_BTN.onclick = init
+    SEND_MSG_BTN.onclick = null
 }
 
 export default closeConnection
