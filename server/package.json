@@ -1,0 +1,15 @@
+{
+  "name": "ws-server",
+  "version": "1.0.0",
+  "description": "showcase websocket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mykola Lebid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "ws": "^8.5.0"
+  }
+}
